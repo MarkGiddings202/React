@@ -1,10 +1,19 @@
 import React from "react";
+import Warmup from "./Stateless-Components/Warmup";
+import ExerciseOne from "./Stateless-Components/Exercise-1";
+import ExerciseTwo from "./Stateless-Components/Exercise-2";
+import ExerciseThree from "./Stateless-Components/Exercise-3";
 
 function App() {
-let str = " Mark "
-let num = 26
-let p = <p>I can't believe this works!</p>
-return [str, num, p]
+  return (
+    <>
+      <Warmup />
+      <ExerciseOne />
+      <ExerciseTwo />
+      <ExerciseThree />
+      <h1>I'm working</h1>
+    </>
+  );
 }
 
 export default App;

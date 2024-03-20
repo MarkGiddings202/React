@@ -1,3 +1,13 @@
+import React from 'react'
+
+function ExerciseOne() {
+  return (
+    <div>Exercise-1</div>
+  )
+}
+
+export default ExerciseOne
+
 /*
     1. Create a new React project using Vite
 

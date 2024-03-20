@@ -1,3 +1,12 @@
+import React from 'react'
+
+function Warmup() {
+  return (
+    <div>Warmup</div>
+  )
+}
+
+export default Warmup
 /*
     1. Create a new React project using Vite
 

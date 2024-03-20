@@ -1,3 +1,12 @@
+import React from 'react'
+
+function BONUS() {
+  return (
+    <div>BONUS</div>
+  )
+}
+
+export default BONUS
 /*
     1. Create a new React project using Vite
 
