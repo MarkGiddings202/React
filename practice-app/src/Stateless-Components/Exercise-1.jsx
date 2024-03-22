@@ -8,7 +8,7 @@ function ExerciseOne() {
     <>
     <div>
     <h1>Mark In Marcy </h1>
-    <img src={Mark} alt='me'/>
+    <img src={Mark} alt='me' style={{ height: '200px', width: '300px' }} />
     </div>
     </>
   )
