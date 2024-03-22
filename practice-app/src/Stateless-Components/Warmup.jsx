@@ -2,7 +2,14 @@ import React from 'react'
 
 function Warmup() {
   return (
-    <div>Warmup</div>
+    <>
+    <h1>Warm up</h1>
+    <ul>
+      <li>Home</li>
+      <li>About</li>
+      <li>Menu</li>
+    </ul>
+    </>
   )
 }
 

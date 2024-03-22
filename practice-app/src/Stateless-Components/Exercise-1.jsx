@@ -1,8 +1,16 @@
-import React from 'react'
+import React from 'react';
+import Mark from '../assets/MarkMarcyKitchen.jpg'
+
+
 
 function ExerciseOne() {
   return (
-    <div>Exercise-1</div>
+    <>
+    <div>
+    <h1>Mark In Marcy </h1>
+    <img src={Mark} alt='me'/>
+    </div>
+    </>
   )
 }
 

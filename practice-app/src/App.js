@@ -7,11 +7,15 @@ import ExerciseThree from "./Stateless-Components/Exercise-3";
 function App() {
   return (
     <>
+    <div>
       <Warmup />
+      <hr></hr>
       <ExerciseOne />
+      <hr></hr>
       <ExerciseTwo />
       <ExerciseThree />
       <h1>I'm working</h1>
+    </div>
     </>
   );
 }
