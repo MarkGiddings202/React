@@ -1,17 +1,21 @@
-import React from 'react'
+import React from "react";
 
 function ExerciseThree() {
-  let cars = ['Toyota','nissan','honda','subaru','mitsubi']
+  let cars = ["Toyota", "nissan", "honda", "subaru", "mitsubi"];
   return (
     <>
-    <p>{cars.map((item)=>{
-        return ` ${item}`
-        })}</p>
+      <b>
+        <p>
+          {cars.map((item) => {
+            return ` ${item}`;
+          })}
+        </p>
+      </b>
     </>
-  )
+  );
 }
 
-export default ExerciseThree
+export default ExerciseThree;
 /*
     1. Create a new React project using Vite
 
