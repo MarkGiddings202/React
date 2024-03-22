@@ -13,8 +13,9 @@ function App() {
       <ExerciseOne />
       <hr></hr>
       <ExerciseTwo />
+      <hr></hr>
       <ExerciseThree />
-      <h1>I'm working</h1>
+     
     </div>
     </>
   );

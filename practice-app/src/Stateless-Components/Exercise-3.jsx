@@ -1,8 +1,13 @@
 import React from 'react'
 
 function ExerciseThree() {
+  let cars = ['Toyota','nissan','honda','subaru','mitsubi']
   return (
-    <div>ExerciseThree</div>
+    <>
+    <p>{cars.map((item)=>{
+        return ` ${item}`
+        })}</p>
+    </>
   )
 }
 

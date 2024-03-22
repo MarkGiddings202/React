@@ -1,12 +1,19 @@
-import React from 'react'
+import React from "react";
+import monkey from '../assets/Monkey-In-Hand.jpeg'
 
 function ExerciseTwo() {
   return (
-    <div>Exercise-2</div>
-  )
+    <>
+      <div>
+        <img src={monkey} alt="monkey" style={{height:'200px',width:'300px'}}></img>
+        <h2>It's a baby monkey</h2>
+        <p>I think baby monkeys are pretty cool</p>
+      </div>
+    </>
+  );
 }
 
-export default ExerciseTwo
+export default ExerciseTwo;
 /*
     1. Create a new React project using Vite
 
