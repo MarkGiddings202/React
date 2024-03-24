@@ -2,7 +2,7 @@ import React from 'react'
 
 function EventsExerciseThree() {
   return (
-    <div>Exercise-3</div>
+    <div>ExerciseThree</div>
   )
 }
 
