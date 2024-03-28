@@ -2,7 +2,9 @@ import React from 'react'
 
 function EventsWarmup() {
   return (
-    <div>Warmup</div>
+    <div>
+      <button onClick={alert("Heyo")} >click me!</button>
+    </div>
   )
 }
 

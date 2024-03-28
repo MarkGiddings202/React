@@ -1,12 +1,49 @@
-import React from 'react'
+import React from "react";
 
 function EventsExerciseTwo() {
+
+   const handleClick = (e)=>{
+      console.log(e.target.textContent)
+   }
+
   return (
-    <div>ExerciseTwo</div>
-  )
+    <div>
+      <table>
+        <thead>
+          <tr>
+            <td>Subject</td>
+            <td>Mark</td>
+            <td>Grade</td>
+          </tr>
+        </thead>
+        <tbody onClick={handleClick} >
+          <tr>
+            <td>Math</td>
+            <td>74</td>
+            <td>B+</td>
+          </tr>
+          <tr>
+            <td>Science</td>
+            <td>94</td>
+            <td>A+</td>
+          </tr>
+          <tr>
+            <td>WoodWorking</td>
+            <td>65</td>
+            <td>C+</td>
+          </tr>
+          <tr>
+            <td>Dancing</td>
+            <td>55</td>
+            <td>D-</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  );
 }
 
-export default EventsExerciseTwo
+export default EventsExerciseTwo;
 
 /*
     1. Create a new Vite React project

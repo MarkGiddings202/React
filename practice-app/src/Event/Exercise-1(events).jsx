@@ -1,8 +1,20 @@
 import React from 'react'
 
 function EventsExerciseOne() {
+
+   // handle input
+   const handleInput = (e) => {
+      // log the event and look through the object and find the target property and acess it's value property
+      console.log(`[${e.target.getAttribute("id")}] : ${e.target.value}`)
+   }
+
   return (
-    <div>ExerciseOne</div>
+    <div>
+      {/* When you want to capture input you do it via the onChange attribute, and
+      pass it a function to do what you want to the value, in this case, we want to
+      console log the input value */}
+      <input id="ex1" onChange={handleInput}></input>
+    </div>
   )
 }
 
