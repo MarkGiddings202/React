@@ -1,12 +1,26 @@
-import React from 'react'
+import React from "react";
 
 function EventsExerciseThree() {
+  
+  const handleSubmit = (e) => {
+    console.log(e)
+    console.log(e.target)
+    e.preventDefault()
+  };
+
   return (
-    <div>ExerciseThree</div>
-  )
+    <div onSubmit={handleSubmit}>
+      <form>
+        <input placeholder="First Name" name="firstname" type="text"></input>
+        <input placeholder="Last Name" name="lastname" type="text"></input>
+        <input placeholder="Age" name="age" type="number"></input>
+        <button type="submit"  >Sumbit</button>
+      </form>
+    </div>
+  );
 }
 
-export default EventsExerciseThree
+export default EventsExerciseThree;
 
 /*
     1. Create a new Vite React project

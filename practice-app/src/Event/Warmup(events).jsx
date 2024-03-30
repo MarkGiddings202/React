@@ -3,7 +3,7 @@ import React from 'react'
 function EventsWarmup() {
   return (
     <div>
-      <button onClick={alert("Heyo")} >click me!</button>
+      {/* <button onClick={alert("Heyo")} >click me!</button> */}
     </div>
   )
 }
