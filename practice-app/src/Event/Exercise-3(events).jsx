@@ -3,9 +3,23 @@ import React from "react";
 function EventsExerciseThree() {
   
   const handleSubmit = (e) => {
-    console.log(e)
-    console.log(e.target)
+    // console.log(e)
+    // console.log(e.target)
     e.preventDefault()
+    // method 1
+    // turns form data into an object
+    const fd = new FormData(e.target)
+    console.log(fd)
+    for(const entry of fd.entries()){
+      //gives back an array of each value inside of the form
+      console.log(entry)
+    }
+
+    // method 2
+    console.log(...fd.entries())
+
+    // method 3
+    console.table(Object.fromEntries(fd))
   };
 
   return (
@@ -14,7 +28,7 @@ function EventsExerciseThree() {
         <input placeholder="First Name" name="firstname" type="text"></input>
         <input placeholder="Last Name" name="lastname" type="text"></input>
         <input placeholder="Age" name="age" type="number"></input>
-        <button type="submit"  >Sumbit</button>
+        <button type="submit">Sumbit</button>
       </form>
     </div>
   );
