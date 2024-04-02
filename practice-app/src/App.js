@@ -1,24 +1,22 @@
 import React from "react";
-
+import '../src/App.css'
+// Stateless-Components
 import Warmup from "./Stateless-Components/Warmup";
 import ExerciseOne from "./Stateless-Components/Exercise-1";
 import ExerciseTwo from "./Stateless-Components/Exercise-2";
 import ExerciseThree from "./Stateless-Components/Exercise-3";
-
+// Event
 import EventsWarmup from "./Event/Warmup(events)";
 import EventsExerciseOne from "./Event/Exercise-1(events)";
 import EventsExerciseTwo from "./Event/Exercise-2(events)";
 import EventsExerciseThree from "./Event/Exercise-3(events)";
-
-import WarmUpProps from "./Props-&-Prop-Drilling/WarmUpProps";
-import ExerciseOneProps from "./Props-&-Prop-Drilling/Exercise-1-props";
-import ExerciseTwoProps from "./Props-&-Prop-Drilling/Exercise-2-props";
-
-import ExerciseThreeProps from "./Props-&-Prop-Drilling/Exercise-3-props";
-import BonusExProps from "./Props-&-Prop-Drilling/Bonus-e1-props";
+// Props 
+import Section from './Props-&-Prop-Drilling/warmup/Section';
+import SectionE1 from "./Props-&-Prop-Drilling/e1/SectionE1";
+import SectionE2 from "./Props-&-Prop-Drilling/e2/SectionE2";
 
 
-import '../src/App.css'
+
 
 function App() {
   return (
@@ -34,7 +32,7 @@ function App() {
         <ExerciseTwo />
         <hr></hr>
         <ExerciseThree />
-
+<hr></hr>
         <h2>Events</h2>
         <EventsWarmup />
         <hr></hr>
@@ -43,17 +41,20 @@ function App() {
         <EventsExerciseTwo />
         <hr></hr>
         <EventsExerciseThree />
-
+<hr></hr>
         <h3>Props</h3>
-        <WarmUpProps  />
+        <h6>Warmup</h6> 
+        <Section/>
         <hr></hr>
-        <ExerciseOneProps/>
+        <h6>E1</h6>
+        <SectionE1/>
         <hr></hr>
-        <ExerciseTwoProps />
+        <h6>E2</h6>
+        <SectionE2/>
         <hr></hr>
-        <ExerciseThreeProps/>
+        {/* <ExerciseThreeProps/> */}
         <hr></hr>
-        <BonusExProps/>
+        {/* <BonusExProps/> */}
       </div>
     </>
   );
