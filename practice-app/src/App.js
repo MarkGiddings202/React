@@ -10,15 +10,15 @@ import EventsExerciseOne from "./Event/Exercise-1(events)";
 import EventsExerciseTwo from "./Event/Exercise-2(events)";
 import EventsExerciseThree from "./Event/Exercise-3(events)";
 
-import WarmupProps from "./Props-&-Prop-Drilling/warmup-props";
+import WarmUpProps from "./Props-&-Prop-Drilling/WarmUpProps";
 import ExerciseOneProps from "./Props-&-Prop-Drilling/Exercise-1-props";
 import ExerciseTwoProps from "./Props-&-Prop-Drilling/Exercise-2-props";
-import ExerciseTwoProps from "./Props-&-Prop-Drilling/Exercise-2-props";
+
+import ExerciseThreeProps from "./Props-&-Prop-Drilling/Exercise-3-props";
 import BonusExProps from "./Props-&-Prop-Drilling/Bonus-e1-props";
 
 
 import '../src/App.css'
-import ExerciseThreeProps from "./Props-&-Prop-Drilling/Exercise-3-props";
 
 function App() {
   return (
@@ -45,7 +45,7 @@ function App() {
         <EventsExerciseThree />
 
         <h3>Props</h3>
-        <WarmupProps  />
+        <WarmUpProps  />
         <hr></hr>
         <ExerciseOneProps/>
         <hr></hr>
