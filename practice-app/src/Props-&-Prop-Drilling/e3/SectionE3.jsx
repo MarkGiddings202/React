@@ -1,13 +1,12 @@
 import React from 'react'
 
-function ExerciseThreeProps() {
+function SectionE3() {
   return (
-    <div>Exercise-3-props</div>
+    <div>SectionE3</div>
   )
 }
 
-export default ExerciseThreeProps
-
+export default SectionE3
 /*
     1. Create a new Vite React project
 

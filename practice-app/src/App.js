@@ -14,6 +14,7 @@ import EventsExerciseThree from "./Event/Exercise-3(events)";
 import Section from './Props-&-Prop-Drilling/warmup/Section';
 import SectionE1 from "./Props-&-Prop-Drilling/e1/SectionE1";
 import SectionE2 from "./Props-&-Prop-Drilling/e2/SectionE2";
+import SectionE3 from "./Props-&-Prop-Drilling/e3/SectionE3";
 
 
 
@@ -52,7 +53,8 @@ function App() {
         <h6>E2</h6>
         <SectionE2/>
         <hr></hr>
-        {/* <ExerciseThreeProps/> */}
+        <SectionE3/>
+        
         <hr></hr>
         {/* <BonusExProps/> */}
       </div>
