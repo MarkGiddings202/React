@@ -1,12 +1,26 @@
-import React from 'react'
+import React from "react";
+import Profile from "./Profile";
 
 function SectionE3() {
+
+    const handleClick = (e) => {
+        console.log(e);
+        alert("Stay Professional");
+    
+      };
   return (
-    <div>SectionE3</div>
-  )
+    <>
+      <Profile
+        profileText={"Profile"}
+        cardText={"Card"}
+        buttonText={"Click me!"}
+        handleClick={handleClick}
+      />
+    </>
+  );
 }
 
-export default SectionE3
+export default SectionE3;
 /*
     1. Create a new Vite React project
 
@@ -19,7 +33,7 @@ export default SectionE3
     3. Create a Card.jsx file that has a component
        that returns an <h2 /> with some text in it
        as well as a Button element below it. Make
-       the text inside the <h1> come from a prop 
+       the text inside the <h2> come from a prop 
        passed in to the component.
 
     4. Create a Profile.jsx file that returns an

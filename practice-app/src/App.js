@@ -15,7 +15,8 @@ import Section from './Props-&-Prop-Drilling/warmup/Section';
 import SectionE1 from "./Props-&-Prop-Drilling/e1/SectionE1";
 import SectionE2 from "./Props-&-Prop-Drilling/e2/SectionE2";
 import SectionE3 from "./Props-&-Prop-Drilling/e3/SectionE3";
-
+// Bonus
+import Paragraph from "./Props-&-Prop-Drilling/Bonus/Paragraph";
 
 
 
@@ -53,10 +54,12 @@ function App() {
         <h6>E2</h6>
         <SectionE2/>
         <hr></hr>
+        <h6>E3</h6>
         <SectionE3/>
-        
         <hr></hr>
-        {/* <BonusExProps/> */}
+        <Paragraph text={"text"} >
+          <h1>Bonus</h1>
+        </Paragraph>
       </div>
     </>
   );
