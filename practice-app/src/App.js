@@ -16,8 +16,8 @@ import SectionE1 from "./Props-&-Prop-Drilling/e1/SectionE1";
 import SectionE2 from "./Props-&-Prop-Drilling/e2/SectionE2";
 import SectionE3 from "./Props-&-Prop-Drilling/e3/SectionE3";
 // useState
-import UseStateWarmup from "./UseState-Hook/UseStateWarmup";
-import UseStateOne from "./UseState-Hook/UseStateOne";
+import Counter from "./UseState-Hook/Counter";
+import Textbox from "./UseState-Hook/Textbox";
 import UseStateTwo from "./UseState-Hook/UseStateTwo";
 import UseStateThree from "./UseState-Hook/UseStateThree";
 
@@ -69,10 +69,10 @@ function App() {
       <h3>useState</h3>
       <hr></hr>
       <h6>Warmup</h6>
-      <UseStateWarmup/>
+      <Counter />
       <hr></hr>
       <h6>E1</h6>
-      <UseStateOne />
+      <Textbox/>
       <hr></hr>
       <h6>E2</h6>
       <UseStateTwo />
