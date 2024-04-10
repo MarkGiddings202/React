@@ -18,8 +18,8 @@ import SectionE3 from "./Props-&-Prop-Drilling/e3/SectionE3";
 // useState
 import Counter from "./UseState-Hook/Counter";
 import Textbox from "./UseState-Hook/Textbox";
-import UseStateTwo from "./UseState-Hook/UseStateTwo";
-import UseStateThree from "./UseState-Hook/UseStateThree";
+import Form from "./UseState-Hook/Form";
+import Profile from "./UseState-Hook/ProfileFolder/Profile";
 
 // Bonus
 import UseStateBonus from "./UseState-Hook/UseStateBonus";
@@ -74,11 +74,11 @@ function App() {
       <h6>E1</h6>
       <Textbox/>
       <hr></hr>
-      <h6>E2</h6>
-      <UseStateTwo />
+      <h6>E2:form</h6>
+      <Form/>
       <hr></hr>
       <h6>E3</h6>
-      <UseStateThree />
+      <Profile/>
       <hr></hr>
       <h6>Bonus</h6>
       <UseStateBonus />
